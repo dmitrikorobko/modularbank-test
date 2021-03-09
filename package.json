@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/error-message": "^0.0.5",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bulma-scss": "^0.9.2",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
     "react-scripts": "4.0.3",
+    "react-select": "^4.2.1",
+    "react-transition-group": "^4.4.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -25,6 +31,7 @@
   },
   "browserslist": {
     "production": [
+      "since 2010",
       ">0.2%",
       "not dead",
       "not op_mini all"

@@ -1,0 +1,49 @@
+@import './utils/libs.scss';
+@import './utils/fonts.scss';
+@import './utils/variables.scss';
+
+//Default Styles
+
+html, body {
+    width: 100%;
+    font-family: 'CalibreWeb';
+    font-size: 16px;
+    color: $white;
+}
+
+body {
+    min-height: 320px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    position: relative;
+    background-color: $dark_blue;
+}
+
+h1, h2, h3 {
+    color: $white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+a {
+    color: $dark_red;
+    &:hover{
+        color: $dark_red;
+    }
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: .75rem;
+}
+
+.information {
+    font-size: 1.5rem;
+}

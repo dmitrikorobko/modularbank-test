@@ -1,0 +1,21 @@
+{
+    "Industry": [
+        "Banking",
+        "Automotive",
+        "Consult",
+        "Finance",
+        "Healthcare",
+        "Media/Pr",
+        "Retail",
+        "Technology",
+        "Telecommunication",
+        "Other"
+    ],
+
+    "OperatingGeography": [
+        "National",
+        "Regional",
+        "Global"
+    ]
+    
+}
