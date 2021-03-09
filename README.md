@@ -2,7 +2,7 @@ Modularbank test assigment.
 
 Build with:
 
-[Create React App](https://github.com/facebook/create-react-app)
+[Create React App](https://github.com/facebook/create-react-app),
 Some parts of Bulma framework, React hook form, React select. 
 
 To run install npm packages, than as every react create app:
